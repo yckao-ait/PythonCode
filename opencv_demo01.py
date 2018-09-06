@@ -19,5 +19,6 @@ print(img.ndim)
 resized_img=cv2.resize(img,(1000,500))
 cv2.imshow("Taipei 101",resized_img)
 cv2.waitKey(0)
+
 #time.sleep(30)
 cv2.destroyAllWindows()
